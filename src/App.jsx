@@ -6,6 +6,7 @@ import MatchesPage from "./pages/MatchesPage"
 import { Route, Routes } from "react-router"
 import { useColorModeValue } from "./components/ui/color-mode"
 import Navbar from "./components/Navbar"
+import TablesPage from "./pages/TablesPage"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/NewsPage" element={<NewsPage />} />
           <Route path="/PlayerPage" element={<PlayerPage />} />
           <Route path="/MatchesPage" element={<MatchesPage />} />
+          <Route path="/TablesPage" element={<TablesPage />} />
         </Routes>
       </Box>
     </>
