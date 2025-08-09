@@ -1,12 +1,7 @@
-import { Box } from "@chakra-ui/react"
 import NewsArticlesContainer from "./NewsArticlesContainer"
 
 const NewsArticlesRow = () => {
-    return (
-        <Box>
-            <NewsArticlesContainer />
-        </Box>
-    )
+    return <NewsArticlesContainer />
 }
 
 export default NewsArticlesRow
